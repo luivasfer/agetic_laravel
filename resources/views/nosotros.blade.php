@@ -21,7 +21,7 @@
 					<li class="wow fadeInRight">Simplificación de Trámites.</li>
 					<li class="wow fadeInRight">Sistemas de Información para el Estado y la población.</li>
 					<li class="wow fadeInRight">Seguridad informática de las entidades públicas del Estado Plurinacional de Bolivia.</li>
-				</ul>
+				</ul><a href=""></a>
 			</div>
 		</div>
 
