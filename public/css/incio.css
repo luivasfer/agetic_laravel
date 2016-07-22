@@ -1,0 +1,550 @@
+/*FUENTES*/
+@import url(fonts.css);
+/**/
+
+/*colores*/
+.morado
+{
+	color:#300024;
+}
+/**/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url('../img/fondo_75.jpg') no-repeat fixed top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: 'OpenSans';
+}
+.borde
+{
+	border: 1px silver solid;
+}
+
+#fondoColor
+{
+	background-color: rgba(90, 9, 84, 0.60);
+	height: 100vh;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+#logoPrincipal
+{
+	position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 360px;
+    transition: .5s ease;
+}
+
+#cajaMenuPrincipal .menuPrincipal
+{
+	display: -webkit-flex;
+   	display: flex;
+    -webkit-flex-direction: row;
+   	flex-direction: row;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+#cajaMenuPrincipal .menuPrincipal a
+{
+	color: rgba(255,255,255,.5);
+	transition: 1s ease;
+}
+
+#cajaMenuPrincipal .menuPrincipal h5
+{
+	font-size: 16px;
+	color: white;
+	line-height: 24px;
+}
+
+.container
+{
+	height: 100vh;
+	position: relative;
+}
+#cajaMenuPrincipal
+{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+}
+.o1 
+{
+	text-align: center;
+	-webkit-flex: 1;
+   	flex: 1;
+    animation-delay: .30s;
+}
+.o2
+{
+	text-align: center;
+	-webkit-flex: 1;
+   	flex: 1;
+    animation-delay: .60s;
+}
+.o3
+{
+	text-align: center;
+	-webkit-flex: 1;
+   	flex: 1;
+    animation-delay: .90s;
+}
+.o4
+{
+	text-align: center;
+	-webkit-flex: 1;
+   	flex: 1;
+    animation-delay: 1.20s;
+}
+.o5
+{
+	text-align: center;
+	-webkit-flex: 1;
+   	flex: 1;
+    animation-delay: 1.50s;
+}
+.menuPrincipal a:hover div
+{
+	border:1px solid white;
+	transition: 1s ease;
+}
+.menuPrincipal .opciones
+{
+	width: 100px;
+   	/*background-image: url('../img/svg/nosotros.svg');
+   	background-position: center;
+   	background-repeat: no-repeat; 
+   	background-size: 45%;*/
+   	border-radius: 50%;
+   	height: 100px;
+   	margin: 0 auto; 
+   	position: relative;
+   	transition: .5s;
+}
+.menuPrincipal .opciones img
+{
+	margin-top: 25%;
+	width: 48px;
+	transition: .5s;
+}
+.menuPrincipal a:hover .opciones img
+{
+	margin-top: 22%;
+	width: 53px;
+	transition: .1s;
+}
+
+
+#logoPrincipal img
+{
+	width: 360px;
+	transition: .5s;
+}
+footer 
+{
+	bottom: 0;
+	color: #FFF;
+	margin: 0 0 13px 0;
+	position: absolute;
+	width: 100%;
+}
+footer .linea
+{
+	align-content: flex-end;
+	align-items: center;
+	border-bottom: 1px solid #300024;
+	display: flex;
+	margin: 0 auto;
+	padding:  0 0 5px 0;
+	position: relative;
+	width: 96%;
+}
+
+footer .linea .banderaBolivia
+{
+	background: rgba(255,0,0,1);
+	background: -moz-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,0,1)), color-stop(33%, rgba(255,0,0,1)), color-stop(33%, rgba(229,245,12,1)), color-stop(66%, rgba(255,234,0,1)), color-stop(66%, rgba(37,156,65,1)), color-stop(100%, rgba(37,156,65,1)));
+	background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#259c41', GradientType=0 );
+	float: left;
+	height: 15px;
+	margin: 0 10px 0 0;
+	width: 20px;
+}
+footer .linea .redSocial
+{
+	position: absolute;
+	right: 0px;
+	bottom: 8px;
+	display: flex;
+	transition: .5s ease;
+}
+footer .linea .redSocial .facebook
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/facebook.svg); 
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .10s;
+}
+footer .linea .redSocial .facebook:hover
+{
+	background-color: #3b579d;
+	background-image: url(../img/svg/facebook.svg); 
+}
+footer .linea .redSocial .twitter
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/twitter.svg); 
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .20s;
+}
+footer .linea .redSocial .twitter:hover
+{
+	background-color: #00B6F1;
+	background-image: url(../img/svg/twitter.svg); 
+}
+
+footer .linea .redSocial .youtube
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/youtube.svg);
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .30s;
+}
+footer .linea .redSocial .youtube:hover
+{
+	background-color: #C4292B;
+	background-image: url(../img/svg/youtube.svg);
+}
+footer .linea .redSocial .instagram
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/instagram.svg);
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .40s;
+}
+footer .linea .redSocial .instagram:hover
+{
+	background-color: #5C4A40;
+	background-image: url(../img/svg/instagram.svg);
+}
+footer .linea #ministerio_e
+{
+	display: none;
+}
+
+#botonResponsive
+{
+	display: none;
+}
+
+#menuResponsiveInicio
+{
+	display: none;
+}
+
+/**------------------ RESPONSIVE----------------- **/
+/*-------------------------------------------------*/
+/*TABLET*/
+
+@media (max-width: 899px) 
+{
+	
+	#logoPrincipal
+	{
+		top: 25%;	
+	}
+	#logoPrincipal img
+	{
+		width: 300px;
+		transition: .5s ease;
+	}
+	#cajaMenuPrincipal .menuPrincipal
+	{
+		display: -webkit-flex;
+	   	display: flex;
+	   	flex-wrap: wrap;
+	    /*
+	    -webkit-flex-direction: row;
+	   	flex-direction: row;
+	    -webkit-justify-content: center;
+	    justify-content: center;
+	    */
+	}
+	.o1 , .o2 , .o3 , .o4 , .o5
+	{
+		text-align: center;
+		-webkit-flex: 1;
+	   	flex: 1;
+	   	width: 50% !important;
+	}
+	footer .linea .redSocial .facebook
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/facebook.svg);
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	footer .linea .redSocial .twitter
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/twitter.svg); 
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	footer .linea .redSocial .youtube
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/youtube.svg); 
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	footer .linea .redSocial .instagram
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/instagram.svg); 
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	#menuResponsiveInicio
+	{
+		display: none;
+	}
+}
+
+/**------------------ RESPONSIVE----------------- **/
+/*-------------------------------------------------*/
+/*Movil*/
+
+@media (max-width: 599px) 
+{
+	#botonResponsive
+	{
+		display: block;
+		left: 43%;
+		top: 45%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		width: 55px;
+		height: 55px;
+		border-radius: 50%;
+		padding-top:14px;
+		border:1px solid white;
+		animation-delay: 1s;
+	}
+	#botonResponsive .linea
+	{
+		width: 50%;
+		height: 2px;
+		background-color: white;
+		margin: 5px auto 5px auto;
+		border-radius: 2px;
+	}
+	#logoPrincipal
+	{
+		top: 20%;
+		text-align: center;
+	}
+	#logoPrincipal img
+	{
+		width: 250px;
+		transition: .5s ease;
+	}
+
+	#cajaMenuPrincipal{
+		display: none;
+	}
+	footer 
+	{
+		bottom: 0;
+		color: #FFF;
+		margin: 0 0 13px 0;
+		position: absolute;
+		width: 100%;
+	}
+	footer .linea
+	{
+		border-bottom: 1px solid #300024;
+		margin: 0 auto;
+		padding:  0 0 5px 0;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		flex-wrap: wrap;
+	}
+	footer .linea #ministerio{
+		display: none;
+	}
+	footer .linea #ministerio_e{
+		text-align: center;
+		display: inline;
+		width: 100%;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	footer .linea .banderaBolivia
+	{
+		background: rgba(255,0,0,1);
+		background: -moz-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+		background: -ms-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+		background: -o-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,0,1)), color-stop(33%, rgba(255,0,0,1)), color-stop(33%, rgba(229,245,12,1)), color-stop(66%, rgba(255,234,0,1)), color-stop(66%, rgba(37,156,65,1)), color-stop(100%, rgba(37,156,65,1)));
+		background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+		background: linear-gradient(to bottom, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#259c41', GradientType=0 );
+		height: 15px;
+		margin: 10px auto;
+		width: 20px;
+		display: inline;
+		transition: .5s ease;
+	}
+	footer .linea .redSocial
+	{
+		bottom: 90px;
+		display: flex;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		transition: .5s ease;
+		justify-content: center;
+	}
+	footer .linea .redSocial .facebook
+	{
+		background-color: #300024;
+		background-image: url(../img/svg/facebook.svg); 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 45%;
+		border-radius: 50%;
+		height: 35px;
+		margin: 0 8px;
+		width: 35px;
+	}
+	footer .linea .redSocial .twitter
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/twitter.svg); 
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	footer .linea .redSocial .youtube
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/youtube.svg); 
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	footer .linea .redSocial .instagram
+	{
+		width: 35px;
+		height: 35px;
+		background-color: #300024;
+		background-image: url(../img/svg/instagram.svg); 
+		background-repeat: no-repeat;
+		background-size: 45%;
+		background-position: center;
+		border-radius: 50%;
+		margin: 0 8px;
+	}
+	#menuResponsiveInicio
+	{
+		display: inline;
+	}
+	.iconosResponsive
+	{
+		margin: 10px;
+		height: 50px !important;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+	}
+	.texto
+	{
+		line-height: -50px !important;
+		margin: 0 0 0 50px;
+	}
+	#menuResponsiveInicio .side-nav
+	{
+		background-color: #300024;
+	}
+
+	#menuResponsiveInicio .side-nav a
+	{
+		color: white !important;
+		border-bottom: 1px dashed rgba(255, 255, 255, .2);
+		padding: 0 10px;
+	}
+	#menuResponsiveInicio .side-nav a:hover
+	{
+		background-color: rgba(0,0,0,.5);
+	}
+
+}

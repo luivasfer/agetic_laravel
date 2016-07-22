@@ -1,0 +1,536 @@
+#fondoColor
+{
+	position: fixed;
+}
+
+/*TITULOS y SUBTITULOS*/
+a {
+outline: none;
+}
+
+h3
+{
+	font-family: 'OpenSans';
+	font-size: 24px;
+}
+hr
+{
+	height: 1px;
+	background: #300024;
+	border: none;
+	margin:5px 0;
+	padding: 0;
+}
+
+.m1{animation-delay: .25s;}
+.m2{animation-delay: .50s;}
+.m3{animation-delay: .75s;}
+.m4{animation-delay: 1s;}
+.m5{animation-delay: 1.25s;}
+.m6{animation-delay: 1.50s;}
+.m7{animation-delay: 1.75s;}
+.m8{animation-delay: 2s;}
+
+/*MENU INTERIOR*/
+
+.scrollup
+{
+    background-color:#300024;
+    background-image: url('../img/svg/flecha_arriba.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    border-radius: 50%;
+    border: 4px solid rgba(255,255,255,.5);
+    bottom:20px;
+    display:none;
+    height:43px;
+    opacity:1;
+    position:fixed;
+    right:20px;
+    text-indent:-9999px;
+    width:43px;
+    z-index: 5;
+}
+.scrollup:hover
+{
+	border: 4px solid rgba(255,255,255,1);
+}
+
+#contenido
+{
+	color: #f2f2f2;
+	font-family: "OpenSans-Light";
+	font-size: 20px;
+	padding:  210px 60px 15px 115px;
+	position: absolute;
+	text-align: justify;
+	width: 100%;
+	line-height: 32px;
+	
+}
+#contenido ul
+{
+	padding: 0 0 0 15px;
+}
+#contenido ul li{
+	margin-left: 25px;
+	line-height: 36px;
+	list-style: disc;
+}
+#contenido img
+{
+	border: 1px dashed #300024;
+	padding: 6px;
+	background-color: rgba(48,0,36,.20);
+}
+
+.menuInterior
+{
+	background-color: #300024;
+	width: 60px;
+	position: fixed;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+}
+.menuInterior a
+{
+	width: 45px;
+	height: 45px;
+	margin: 12px 0;
+	padding:  8px 0 0 10px ;
+	
+}
+
+.menuInterior a img{
+	width: 25px;
+	text-align: center;
+}
+.menuInterior .nosotros:hover
+{
+	border:1px solid #FFF;
+	border-radius: 50%;
+}
+.menuInterior .gobierno:hover
+{
+	border:1px solid #FFF;
+	border-radius: 50%;
+}
+.menuInterior .prensa:hover
+{
+	border:1px solid #FFF;
+	border-radius: 50%;
+}
+.menuInterior .campana:hover
+{
+	border:1px solid #FFF;
+	border-radius: 50%;
+}
+/*FIN MENU INTERIOR*/
+
+
+/*LOGO INTERIOR */
+#logoInterior
+{
+	height: 215px;
+	padding:  0px 60px 0 115px;
+	position: fixed;
+	right: 0;
+	top: 0px;
+	width: 100%;
+	background: url(../img/fondo_75.jpg) no-repeat fixed top;
+	background-size: cover;
+	z-index: 2;
+	opacity: .92;
+}
+#logoInterior img
+{
+	width: 230px;
+	float: right;
+	margin-top: 15px;
+}
+/* FIN LOGO INTERIOR */
+
+
+/*SUBMENU INTERIOR */
+#submenuInterior
+{
+	top:0;
+	position: fixed;
+	top: 100px;
+	right: 0;
+	width: 100%;
+	padding: 0 60px 0 115px;
+	text-align: justify;
+}
+#submenuInterior h1
+{
+	font-family: "OpenSans-Light";
+	font-size: 32px;
+	margin: 5px 0 5px 0;
+	padding: 0;
+	color: white;
+}
+#submenuInterior hr
+{
+	height:1px;
+	background-color:#6D306C;
+	width:100%;
+	border:none;
+}
+#submenuInterior .submenu
+{
+	display: flex;
+	justify-content: flex-end;
+}
+#submenuInterior .submenu a
+{
+	width: 30px;
+	height: 30px;
+	margin:0 0 0 20px;
+}
+#submenuInterior .submenu a img
+{
+	width: 24px;
+	margin-top: 5px;
+	opacity: 1;
+}
+
+/* FIN SUBMENU INTERIOR */
+
+#cabeceraResponsive
+{
+	display: none;
+}
+
+footer
+{
+	border-bottom: 1px solid rgba(48,0,33,.5);
+	margin: 0;
+	padding: 0;
+	position: relative;
+	bottom: 0;
+	display: flex;
+	font-size: 16px;
+	align-items: center;
+	text-shadow: 0 1px 0 #300024;
+
+}
+footer .banderaBolivia1
+{
+	margin-right:10px;
+	width: 24px;
+	height: 13px;
+	background: rgba(255,0,0,1);
+	background: -moz-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,0,0,1)), color-stop(33%, rgba(255,0,0,1)), color-stop(33%, rgba(229,245,12,1)), color-stop(66%, rgba(255,234,0,1)), color-stop(66%, rgba(37,156,65,1)), color-stop(100%, rgba(37,156,65,1)));
+	background: -webkit-linear-gradient(top, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 33%, rgba(229,245,12,1) 33%, rgba(255,234,0,1) 66%, rgba(37,156,65,1) 66%, rgba(37,156,65,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#259c41', GradientType=0 );
+}
+footer #redesSocialesInterior
+{
+	align-items: flex-end;
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+}
+
+/*----*/
+
+footer #redesSocialesInterior .redSocial
+{
+	position: absolute;
+	right: 0px;
+	bottom: 8px;
+	display: flex;
+	transition: .5s ease;
+}
+footer #redesSocialesInterior .redSocial .facebook
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/facebook.svg); 
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .10s;
+}
+footer #redesSocialesInterior .redSocial .facebook:hover
+{
+	background-color: #3b579d;
+	background-image: url(../img/svg/facebook.svg); 
+}
+footer #redesSocialesInterior .redSocial .twitter
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/twitter.svg); 
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .20s;
+}
+footer #redesSocialesInterior .redSocial .twitter:hover
+{
+	background-color: #00B6F1;
+	background-image: url(../img/svg/twitter.svg); 
+}
+
+footer #redesSocialesInterior .redSocial .youtube
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/youtube.svg);
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .30s;
+}
+footer #redesSocialesInterior .redSocial .youtube:hover
+{
+	background-color: #C4292B;
+	background-image: url(../img/svg/youtube.svg);
+}
+footer #redesSocialesInterior .redSocial .instagram
+{
+	width: 35px;
+	height: 35px;
+	background-color: #300024;
+	background-image: url(../img/svg/instagram.svg);
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+	border-radius: 50%;
+	margin: 0 0 0 25px;
+	animation-delay: .40s;
+}
+footer #redesSocialesInterior .redSocial .instagram:hover
+{
+	background-color: #5C4A40;
+	background-image: url(../img/svg/instagram.svg);
+}
+
+#submenuResponsive
+{
+	display: none;
+}
+#submenuInteriorResponsive
+{
+	display: none;
+}
+
+
+/**------------------ RESPONSIVE----------------- **/
+/*-------------------------------------------------*/
+/*TABLET*/
+
+@media (max-width: 899px) 
+{
+	.menuInterior
+	{
+		display: none;
+	}
+	#logoInterior
+	{
+		height: 160px;
+		padding:  0px 60px 0 115px;
+		position: fixed;
+		right: 0;
+		top: 0px;
+		width: 100%;
+		background: url(../img/fondo_75.jpg) no-repeat fixed top;
+		background-size: cover;
+		z-index: 2;
+		opacity: .92;
+	}
+	#logoInterior a img
+	{
+		display: none;
+	}
+	#logoInterior #submenuInterior
+	{
+		padding: 0 20px;
+		margin:0;
+	}
+	#logoInterior #submenuInterior .submenu
+	{
+		display: none;
+	}
+	#contenido
+	{
+		margin:0;
+		padding: 180px 20px 100px 20px;
+		color: #f1f1f1;
+		font-family: "OpenSans-Light";
+		font-size: 18px;
+		position: absolute;
+		text-align: justify;
+		width: 100%;
+		line-height: 32px;
+	}
+	#cabeceraResponsive
+	{
+		height: 60px;
+		background-color: rgba(48,0,36,.70);
+		position: fixed;
+		top: 0;
+		left: 0; 
+		width: 100%;
+		display: block;
+		box-shadow:  2px  0  4px rgba(0,0,0,.5);
+		z-index: 4;
+		padding: 8px;
+		display: flex;
+	}
+	#cabeceraResponsive .opcionMenuResponsive
+	{
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		right: 8px;
+		padding-top: 12px;
+		padding-right: 5px;
+	}
+	#cabeceraResponsive .opcionMenuResponsive .linea
+	{
+		height: 1px;
+		background: white;
+		margin: 0px auto 7px auto;
+		width: 80%;
+		box-shadow: 1px 0 0 rgba(0,0,0,.8);
+	}
+	#submenuResponsive
+	{
+		display: none;
+	}
+	.submenu
+	{
+		display: none;
+	}
+	#submenuInteriorResponsive
+	{
+		display: block;
+		text-align: center;
+		width: 31px;
+		height: 31px;
+		position: absolute;
+		right: 27px;
+		top: -30px;
+	}
+	
+	/* --- SUBMENU --- */
+	#activar
+	{
+		width: 40px;
+		height: 40px;
+		border:1px solid width;
+	}
+
+	#activar {display: none;}
+		
+	.inputlabel 
+	{
+		height: 20px;
+		width: 20px;
+		padding: 5px 10px;
+		transform: rotate(0deg);
+	}
+	#activar ~ .inputlabel:before 
+	{
+		content: url(../img/submenu.png);
+		border:0;
+		width: 20px;
+		height: 20px;
+		padding: 5px 10px;
+		transform: rotate(0deg);
+	}
+	#activar ~ .desplegable
+	{
+		color: #fff;
+		display: none;
+		overflow: hidden;
+		width: 200px;
+	}
+	#activar:checked ~ .desplegable 
+	{
+		align-items: flex-end;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		right: -5px;
+		top: 40px;
+		width: 300px;
+	}
+	.desplegable div
+	{
+		margin-bottom: 5px;	
+		background-color: rgba(48,0,36,.95);
+		padding: 10px 15px;
+		font-size: 16px;
+		border-radius: 6px;
+	}
+	.desplegable div a
+	{
+		color: white;
+	}
+	#activar:checked ~ .inputlabel:before 
+	{
+		content: url(../img/cerrar.png);
+
+	}
+	/* --- FIN SUBMENU --- */
+}
+@media (max-width: 599px) 
+{
+	#contenido
+	{
+		margin:0;
+		padding: 110px 20px 20px 20px;
+		color: #f1f1f1;
+		font-family: "OpenSans-Light";
+		font-size: 18px;
+		position: absolute;
+		text-align: justify;
+		width: 100%;
+		line-height: 30px;
+	}
+	#contenido ul
+	{
+		padding: 0 0 0 15px;
+	}
+	#contenido ul li
+	{
+		margin-left: 25px;
+		line-height: 30px;
+		list-style: disc;
+	}
+	footer
+	{
+		display: none;
+	}
+	#submenuResponsive
+	{
+		display: inline;
+	}
+	.submenu
+	{
+		display: none;
+	}
+	
+}
