@@ -2,6 +2,33 @@
 @import url(fonts.css);
 /**/
 
+/* --- SCROLL ---*/
+::-webkit-scrollbar
+{
+	background: #300024;
+	height: 7px;
+} 
+::-webkit-scrollbar-button 
+{
+	background: #300024;
+} 
+::-webkit-scrollbar-track {}
+::-webkit-scrollbar-track-piece {}
+::-webkit-scrollbar-thumb 
+{
+	background: #720d59;
+	border-radius: 10px;
+} 
+::-webkit-scrollbar-corner 
+{
+	border: 1px solid red;	
+} 
+::-webkit-scrollbar-shadow-color {} 
+::-webkit-resizer
+{
+	background: yellow;
+} 
+
 /*colores*/
 .morado
 {
@@ -17,6 +44,7 @@ body
 	-webkit-background-size: cover;
 	background-size: cover;
 	font-family: 'OpenSans';
+	-webkit-scrollbar-shadow-color: white;
 }
 .borde
 {

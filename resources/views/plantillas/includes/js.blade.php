@@ -32,3 +32,39 @@
 	<script>
     	new WOW().init();
     </script>
+
+
+    <!-- ACORDEON -->
+    <script>
+    	$(document).ready(function(){
+		    $('.collapsible').collapsible({
+		      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+		    });
+		});
+    </script>
+    <!-- MODAL -->
+    <script>
+    	$(document).ready(function(){
+	    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+	    	$('.modal-trigger').leanModal();
+	  	});
+    </script>
+
+    <!-- ORGANIGRAMA -->
+    <script src="js/ajax.js"></script>
+    <script src="js/organigrama.js"></script>
+    <script>
+		$(function() {
+			var tree = new treefilter($("#my-tree"), {
+				multiselect : true
+			});
+		});
+	</script>
+
+	<!-- MAPA -->
+	<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+	<script>
+    	mapa = new OpenLayers.Map("divMapa");
+    	mapa.addLayer(new OpenLayers.Layer.OSM());
+    	mapa.zoomToMaxExtent();
+	</script>

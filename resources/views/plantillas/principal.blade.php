@@ -4,9 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>@yield ('titulo') :: AGETIC</title>
-
 	@include('plantillas.includes.css')
-	
 </head>
 <body>
 	<a href="#" class="scrollup hvr-float">Scroll</a>
@@ -25,15 +23,6 @@
 			<h1 class="animated slideInLeft">@yield ('titulo')</h1>
 			<hr>
 			@yield ('submenu')
-			<div id="submenuInteriorResponsive" class="animated fadeInRight">
-				<input id="activar" name="activar" type="checkbox">
-				<label class="inputlabel" for="activar"></label>
-				<div class="desplegable">
-					<div class=" m1 animated fadeInUp"><a href="#">Transparencia</a></div>
-					<div class=" m2 animated fadeInUp"><a href="#">Orgranigrama</a></div>
-					<div class=" m3 animated fadeInUp"><a href="#">Contacto</a></div>
-				</div>
-			</div>
 		</div>
 	</div>
 	

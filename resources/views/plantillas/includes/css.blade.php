@@ -3,5 +3,6 @@
 	<link rel="stylesheet" href="css/interior.css">
 	<link rel="stylesheet" href="css/animate.css">	
 	<link rel="stylesheet" href="css/e_hover.css">
+	<link rel="stylesheet" href="css/organigrama.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>

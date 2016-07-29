@@ -3,6 +3,7 @@
 @section('titulo','Nosotros')
 
 @section('contenido')
+	<?php  $opcionOn = 1 ;?>
 	<div id="contenido">
 		<div class="row">
 			<div class="col s12">
@@ -48,15 +49,5 @@
 
 <!-- SUBMENU -->
 @section ('submenu')
-	<div class="submenu">
-		<a href="#" class="tooltipped m1 animated fadeInUp" data-position="buttom" data-delay="50" data-tooltip="Transparencia">
-			<img src="img/svg/transparencia.svg" alt="Transparencia">
-		</a>
-		<a href="#" class="tooltipped m2 animated fadeInUp" data-position="buttom" data-delay="50" data-tooltip="Organigrama">
-			<img src="img/svg/organigrama.svg" alt="organigrama">
-		</a>
-		<a href="#" class="tooltipped m3 animated fadeInUp" data-position="buttom" data-delay="50" data-tooltip="Contacto">
-			<img src="img/svg/contacto.svg" alt="contacto">
-		</a>
-	</div>
+	@include ('plantillas/includes/submenuNosotros')
 @endsection
